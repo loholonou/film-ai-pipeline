@@ -1,0 +1,21 @@
+# Pipeline outputs — never commit raw video or extracted frames
+output/
+*.mp4
+*.mov
+*.mkv
+*.wav
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Conda / pip
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
